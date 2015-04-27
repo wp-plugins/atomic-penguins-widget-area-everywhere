@@ -1,0 +1,75 @@
+.wae-container,.wae_project_container
+{
+	width: 97%;
+	background-color: white;
+	padding: 10px;
+	margin-top: 5%;
+	overflow: auto;
+	border: 1px solid rgb(34, 34, 34);
+	border-radius: 10px;
+}
+#wae_holder
+{
+	width: 100%;
+	text-align: center;
+}
+input[type='text']
+{
+	border-radius: 5px;
+	width: 99.5%;
+}
+.label
+{
+	margin: 0px;
+	padding-left: 2px;
+}
+button
+{
+
+}
+.btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: rgb(32, 32, 94);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  	float: right;
+	margin-top: 10px;
+	border: 1px;
+	cursor: pointer;
+}
+
+.btn:hover {
+    background: #12a87e;
+    text-decoration: none;
+}
+
+
+
+
+#dialogoverlay{
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+#dialogbox{
+	display: none;
+	position: fixed;
+	background: #000;
+	border-radius:7px; 
+	width:700px;
+	z-index: 10;
+}
+#dialogbox > div{ background:#FFF; margin:8px; }
+#dialogbox > div > #dialogboxhead{ background: #666; font-size:19px; padding:10px; color:#CCC; }
+#dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; }
+#dialogboxfoot{ background: #666 !important; padding:10px; text-align:right; }
